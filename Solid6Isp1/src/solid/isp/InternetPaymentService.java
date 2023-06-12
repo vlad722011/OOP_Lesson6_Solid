@@ -1,5 +1,6 @@
 package solid.isp;
 
+// По интернету мы можем платить через webmoney, по кредитке и по номеру телефону
 public class InternetPaymentService implements Payable{
     @Override
     public void payWebMoney(int amount) {

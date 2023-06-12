@@ -2,6 +2,7 @@ package solid.isp;
 
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
+// По терминалу мы можем платить через webmoney, по кредитке, но не может платить по номеру телефона
 public class TerminalPaymentService implements Payable {
 
     @Override
