@@ -8,5 +8,8 @@ public class Main {
         Square square = new Square(new Point(1,1), 5);
         System.out.printf("Площадь фигуры: %d \n", square.getArea());
         square.draw();
+        square.zoom(1.5f);
+        System.out.printf("Площадь фигуры: %d \n", square.getArea());
+        square.draw();
     }
 }

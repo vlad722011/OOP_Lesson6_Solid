@@ -30,6 +30,10 @@ public class Square {
         return side * side;
     }
 
+    public void zoom(float zoom) {
+        side = (int) (side * zoom);
+    }
+
     public void draw() {
         for (int i = 0; i < side; i++) {
             System.out.print("* ");
