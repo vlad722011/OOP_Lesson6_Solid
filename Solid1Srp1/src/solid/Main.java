@@ -5,7 +5,8 @@ import solid.srp.Square;
 
 public class Main {
     public static void main(String[] args) {
-        Square square = new Square(new Point(1,1), 5);
+        int side = 5;
+        Square square = new Square(side);
         System.out.printf("Площадь фигуры: %d \n", square.getArea());
         square.draw();
         square.zoom(1.5f);
