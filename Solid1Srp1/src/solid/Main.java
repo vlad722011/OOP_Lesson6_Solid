@@ -10,7 +10,7 @@ public class Main {
         System.out.printf("Площадь фигуры: %d \n", square.getArea());
         square.draw();
         square.zoom(1.5f);
-        System.out.printf("Площадь фигуры: %d \n", square.getArea());
+        System.out.printf("\nПлощадь фигуры: %d \n", square.getArea());
         square.draw();
     }
 }
