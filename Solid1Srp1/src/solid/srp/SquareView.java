@@ -1,16 +1,12 @@
 package solid.srp;
 
-public class Square {
-
+public class SquareView {
     private int side;
 
-    public Square(int side) {
+    public SquareView(int side) {
         this.side = side;
     }
 
-    public int getArea() {
-        return side * side;
-    }
 
     public void zoom(float zoom) {
         side = (int) (side * zoom);

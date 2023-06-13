@@ -1,16 +1,16 @@
 package solid;
 
-import solid.srp.Point;
-import solid.srp.Square;
+import solid.srp.SquareCalculation;
+import solid.srp.SquareView;
 
 public class Main {
     public static void main(String[] args) {
         int side = 5;
-        Square square = new Square(side);
-        System.out.printf("Площадь фигуры: %d \n", square.getArea());
+        SquareView square = new SquareView(side);
+        System.out.printf("Площадь фигуры: %d \n", SquareCalculation.getArea(side));
         square.draw();
         square.zoom(1.5f);
-        System.out.printf("\nПлощадь фигуры: %d \n", square.getArea());
+        System.out.printf("\nПлощадь фигуры: %d \n", SquareCalculation.getArea(side));
         square.draw();
     }
 }
