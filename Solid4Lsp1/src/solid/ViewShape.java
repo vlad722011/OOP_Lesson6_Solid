@@ -3,14 +3,14 @@ package solid;
 import solid.lsp.Rectangle;
 
 public class ViewShape {
-    private Rectangle rectangle;
+    private Rectangle figure;
 
     public ViewShape(Rectangle rectangle) {
-        this.rectangle = rectangle;
+        this.figure = rectangle;
     }
 
     public void showArea() {
-        System.out.print("Площадь прямоугольника равна:");
-        System.out.println(rectangle.getArea());
+        System.out.print("Площадь фигуры равна: ");
+        System.out.println(figure.getArea());
     }
 }
