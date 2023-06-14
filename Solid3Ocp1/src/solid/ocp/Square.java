@@ -9,4 +9,9 @@ public class Square  implements Shape {
     public int getSide() {
         return side;
     }
+
+    @Override
+    public Double getArea() {
+        return Math.pow(side, 2);
+    }
 }
