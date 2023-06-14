@@ -29,7 +29,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/vlad/IdeaProjects/OOP_Lesson6_Solid/Solid5Lsp2"
+    "last_opened_file_path": "/home/vlad/IdeaProjects/OOP_Lesson6_Solid/Solid6Isp1"
   },
   "keyToStringList": {
     "GitStage.ChangesTree.GroupingKeys": [
@@ -76,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686732662433</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Solid_5">
+      <created>1686737518460</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1686737518460</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -84,6 +91,7 @@
     <MESSAGE value="Solid_2" />
     <MESSAGE value="Solid_3" />
     <MESSAGE value="Solid_4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solid_4" />
+    <MESSAGE value="Solid_5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solid_5" />
   </component>
 </project>
